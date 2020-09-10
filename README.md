@@ -1,6 +1,6 @@
 # study.node.js
 
-Aplicação criada em Node.js, cadastro de clientes 
+Aplicação criada em Node.js, cadastro de clientes e lista os clientes criados
 
 Para instalar:
 - npm init
