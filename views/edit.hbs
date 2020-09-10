@@ -1,0 +1,43 @@
+<form action="/edition/{{id}}" method="POST">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Nome:</label>
+                    <input type="text" class="form-control" name="nome" value="{{nome}}" required>
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-group">
+                    <label for="exampleFormControlSelect1">Endereço:</label>
+                    <textarea name='endereco' class="form-control" rows='3'>{{endereco}}"</textarea>
+                </div>
+            </div>
+            <div class="col">
+                <label>Telefone:</label>
+                <input name='telefone' class="form-control" rows='1' value="{{telefone}}"></input>
+            </div>
+            </div>
+            <div class="row">
+            <div class="col">
+                <label>Data Nascimento:</label>
+                <input name='dataNSC' class="form-control" rows='1' value="{{dataNSC}}"></input>
+            </div>
+            <div class="col">
+                <label>Sexo:</label>
+                <input name='sexo' class="form-control" rows='1' value="{{sexo}}"></input>
+            </div>
+            <div class="col">
+                <label>Email:</label>
+                <input type="email" class="form-control" name='email' rows='1' value="{{email}}"></input>
+            </div>
+            </div>
+            <br>
+            <br>
+
+            <button type="submit" class="btn btn-primary">Adcionar</button>
+
+        </div>
+    </div>
+    </div>
+</form>

@@ -1,0 +1,33 @@
+
+<h1>{{title}}</h1>
+
+{{#each posts}}
+<div class="card" style="width: 18rem;">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="form-group"></div>
+
+                <div class="card-body">
+                    <h5 class="card-title">{{dataValues.nome}}</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Tel:
+                        {{dataValues.telefone}}</h6>
+                    <h6 class="card-subtitle mb-2 text-muted">Data
+                        Nsc:{{dataValues.dataNSC}}</h6>
+                    <p class="card-text">End: {{dataValues.endereco}}</p>
+                    <a href="/delet/{{dataValues.id}}" class="card-link">Excluir</a>
+                    <a href="/edit/{{dataValues.id}}" class="card-link">Editar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<hr>
+
+{{/each}}
+
+
+<div class="container">
+    <div class="row">
+        <div class="col">
